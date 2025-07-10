@@ -17,7 +17,7 @@
 
       src = builtins.path {
         path = ./.;
-        name = "caprinix-snowfall-lib-starter";
+        name = "caprinix-essentials";
       };
 
       snowfall = rec {
