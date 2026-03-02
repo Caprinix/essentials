@@ -1,5 +1,5 @@
 {
-  description = "A very basic flake";
+  description = "Nix flake for Caprinix essentials";
 
   inputs = {
     nixpkgs = {
@@ -31,8 +31,8 @@
         namespace = "caprinix";
 
         meta = {
-          name = "caprinix-snowfall-lib-starter";
-          title = "Caprinix - snowfall-lib-starter";
+          name = "caprinix-essentials";
+          title = "Caprinix - essentials";
         };
       };
     };
